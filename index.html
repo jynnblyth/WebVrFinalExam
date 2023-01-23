@@ -22,6 +22,11 @@ Created by Jynn Blyth M. Nicolas
     <link href="./assets/style.css" rel="stylesheet" />
   </head>
   <body>
+	  <audio controls autoplay>
+ 
+  <source src="music.mp3" type="audio/mpeg">
+  
+</audio>
     <div class="notification-container">
       <div class="notification-desktop">
         <p>This is the default room. If any mobile user joins, your will lose control and this app will mirror that mobile user's screen.
@@ -74,12 +79,7 @@ Created by Jynn Blyth M. Nicolas
             align:center;"></a-mixin>
 	 
       </a-assets>
-	    
-      <!-- Sound -->
- 	<a-assets>
-        <a-audio id="music" src="assets/music.mp3"     
-	 crossorigin="anonymous"></a-audio>  
-	</a-assets>
+	 
 	    
       <!-- Lights! -->
       <a-entity light="
